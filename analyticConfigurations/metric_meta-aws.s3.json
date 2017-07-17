@@ -1,0 +1,30 @@
+{
+  "analyticConfiguration" : {
+    "tenantId" : null,
+    "type" : "METRIC_META",
+    "id" : null,
+    "packageId" : null,
+    "name" : "AWS S3",
+    "scope" : {
+      "elementName" : null,
+      "elementType" : "S3",
+      "elementTags" : null,
+      "metricMatches" : null
+    },
+    "metrics" : [ {
+      "match" : "aws.s3.bucketsizebytes",
+      "properties" : {
+        "tags" : {
+          "unit" : "bytes"
+        }
+      }
+    }, {
+      "match" : "aws.s3.numberofobjects",
+      "properties" : {
+        "tags" : {
+          "unit" : "count"
+        }
+      }
+    }  ]
+  }
+}

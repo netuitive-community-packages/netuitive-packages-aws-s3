@@ -1,0 +1,45 @@
+{
+  "id" : "netuitive.packages.aws.s3",
+  "version" : "1.0.0",
+  "manifest" : {
+    "name" : "Netuitive Packages AWS S3",
+    "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS S3 buckets.",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitive.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+      "download" : "https://github.com/netuitive-community-packages/netuitive-packages-aws-s3/archive/master.zip"
+    },
+    "compatibility" : [ "AWS:S3 Bucket" ],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "analyticConfigurations" : [ {
+    "data" : {
+      "file" : "analyticConfigurations/ace-aws.s3.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "analyticConfigurations/metric_meta-aws.s3.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ],
+  "dashboards" : [ {
+    "data" : {
+      "file" : "dashboards/aws.s3.element.detail.page.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "dashboards/aws.s3.summary.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ]
+}
