@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.aws.s3",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "manifest" : {
     "name" : "Netuitive Packages AWS S3",
     "description" : "A set of Netuitive analytics configurations, polices, dashboards, and reports that are used to monitor performance of AWS S3 buckets.",
