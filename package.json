@@ -12,7 +12,7 @@
       "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
       "download" : "https://github.com/netuitive-community-packages/netuitive-packages-aws-s3/archive/master.zip"
     },
-    "compatibility" : [ "AWS:S3 Bucket" ],
+    "compatibility" : [ "AWS:S3" ],
     "tags" : [ ],
     "checksum" : null
   },
