@@ -6,7 +6,7 @@ For detailed information on this package, please refer to the [online documentat
 
 ### Version 1.0.1
 
-* Fixed collector compatibility
+* Fixed collector compatibility.
 
 ### Version 1.0.0
 
