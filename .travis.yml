@@ -1,7 +1,9 @@
 language: node_js
 node_js:
-  - "6"
-
+- '6'
 script:
-  - npm i git+https://git@github.com/Netuitive/netuitive-package-validator.git;
-    node -e "require('package-validator').validate('.', require('./package.json').id)";
+- npm i git+https://git@github.com/Netuitive/netuitive-package-validator.git; node
+  -e "require('package-validator').validate('.', require('./package.json').id)";
+notifications:
+  slack:
+    secure: DfSm3gxJnOmqzi6rVyBId05ZCw0mzsR8QUQk+UwDMKcDomLePvOo0h6obDiCtQWO3HGhncChcut2JEiFhwrkt+9L6gvv2PWaTJsTqB0Yk0Cu0zbP9suxC2OBg7dRLSZC5DtvWMzky/rJ1ZVfRWzFbjyuR40LJnA1WyEVmAkjAbwNwUapM439ve+CxsCIPXox21tCO+H3VfyXckco+BKvLHk/bniHvI9R8k65JpSkL3/cf7M1/MG5olgR2mbyjwJbdsiV7rbKTnZfzPnwXSV9dwx/vbivMg3guM4nC90NiXhmpz/9x68iCZ5VOZD2wRv58tqmPbjtKM/JleF79vuqC9HVZdrVbzweY4bn4jpEwjn7QsHKaQEU3mskxs3arHJ+Zc6xdSjsyL3+1cXhrvT2aAQWlc8YEuFmgyJBEJlOsw11VrUQUcp+d36jkODAE5tmfFOSfcKQ8nQ81z748pM/M6VdAg0n7StmNc3U9TN2SxAbBmiu1JM5pGCiLD6Qrrfp1T2EmOslByweNBOnR86menX3/kjMvGM40BrI4vsj6clTh9Wh5ntCOqlCWHIg59GLcrK6o/BX6bbHA0tWvhu+9nVs/ixmTZJElcR886cTdJZBbWskfYM3aVo2oUo/u1cb0HhUxBk3nDHeMgy2DM3rCgAyyKgu8SK+ph8/osro6AA=
