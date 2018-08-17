@@ -1,22 +1,18 @@
 {
-  "analyticConfiguration" : {
-    "tenantId" : null,
-    "type" : "ACE",
-    "id" : null,
-    "packageId" : null,
-    "name" : "AWS S3",
-    "scope" : {
-      "elementName" : null,
-      "elementType" : "S3",
-      "elementTags" : null,
-      "metricMatches" : null
-    },
-    "metrics" : [ {
-      "match" : "aws.s3.(bucketsizebytes|resources)",
-      "properties" : {
-        "baseline" : false,
-        "correlation" : false
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "aws.s3.(bucketsizebytes|resources)",
+        "properties": {
+          "baseline": false,
+          "correlation": false
+        }
       }
-    } ]
+    ],
+    "name": "AWS S3",
+    "scope": {
+      "elementType": "S3"
+    },
+    "type": "ACE"
   }
 }
